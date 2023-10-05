@@ -16,8 +16,14 @@
         max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
+        
     }
-    
+    #home .container  {
+       text-align: center;
+    }
+    #home .container p {
+        margin-bottom: 2rem;
+     }
     footer .container{
         margin-bottom: 120px;
     } 
@@ -119,9 +125,29 @@
         background-color: #333;
         color: #fff;
         text-align: center;
-        margin-top: 400px;
+        margin-top: 7.4rem;
+        position: fixed;
+        width: 100%;
     }
+    /* styles of blog page*/
     
+    .article {
+        display: flex;
+        padding: 50px;
+    }
+    main #image_article img {
+        width: 300px;
+        margin: 40px;
+    }
+    main #paddingarticles {
+        margin-top: 50px;
+    }
+    .footerpied{
+        background-color: wheat;
+        text-align: center;
+
+    }
+
     /* Styles responsives */
     @media screen and (max-width: 768px) {
         header h1 {
@@ -141,4 +167,5 @@
             grid-template-columns: repeat(1, 1fr);
         }
     }
+    
 

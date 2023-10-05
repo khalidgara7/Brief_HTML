@@ -125,15 +125,16 @@
         background-color: #333;
         color: #fff;
         text-align: center;
-        margin-top: 7.4rem;
+        margin-top: 15rem;
         position: fixed;
         width: 100%;
+       
     }
     /* styles of blog page*/
     
     .article {
         display: flex;
-        padding: 50px;
+        padding: 40px;
     }
     main #image_article img {
         width: 300px;
@@ -147,7 +148,15 @@
         text-align: center;
 
     }
-
+    /* styles of blogpesone */
+    .blogblogpersn{
+        background-color: aqua;
+        
+        
+    }
+    form .bottom1{
+        
+    }
     /* Styles responsives */
     @media screen and (max-width: 768px) {
         header h1 {
